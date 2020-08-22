@@ -1,0 +1,144 @@
+ext
+exit
+Vagrant cannot forward the specified ports on this VM, since they
+would collide with some other application that is already listening
+on these ports. The forwarded port to 8080 is already in use
+on the host machine.
+To fix this, modify your current project's Vagrantfile to use another
+port. Example, where '1234' would be replaced by a unique host port:
+  config.vm.network :forwarded_port, guest: 80, host: 1234
+Sometimes, Vagrant will attempt to auto-correct this for you. In this
+case, Vagrant was unable to. This is usually because the guest machine
+is in a state which doesn't allow modifying port forwarding. You could
+try 'vagrant reload' (equivalent of running a halt followed by an up)
+so vagrant can attempt to auto-correct this upon booting. Be warned
+that any unsaved work might be lost.
+cd /vagrant/server_lesson
+ls
+cd remi-release-7.rpm
+pwd
+cd server_lesson
+exit
+ls
+vagrant ssh-config
+exit
+pwd
+ls
+lls /
+ls
+exit
+pwd
+cd /vagrant
+ls
+cd server_lesson
+ls
+cd linux_practice2
+ls
+cd documents
+ls
+cd ..
+cd /vagrant
+ls
+mv gizumo{02..}
+mv gizumo{20..50}.md/trash/
+mv gizumo{20..40}.md trash/
+cd server_lesson
+ls
+cd linux_practice2
+ls
+mv gizumo{20..40}.md trash/
+ls
+cd trash
+ls
+cd ..
+cd documents
+ls
+cd ..
+ls
+cd /vagrant
+mv ./server_lesson/linux_practice2/gizumo{20..40}.md ./server_lesson/linux_practice2/trash
+ls
+cd /trash
+cd ./server_lesson
+ls
+cd linux_practice2
+cd
+ls
+cd ..
+ls
+cd vagrant
+ls
+pwd
+ls
+cd ..
+cd..
+cd ..
+ls
+cd ..
+ls
+cd ?usr
+cd /usr
+ls
+cd ..
+cd vagrant
+ls
+cd server_lesson
+cd
+ls
+pwd
+cd server_lesson
+ls
+cd ..
+cd..
+ls
+cd vagrant
+ls
+pwd
+cd /server_lesson
+cd ..
+ls
+cd vagrant
+ls
+cd server_lesson
+ls
+mv linux_practice2/gizumo20.md trash/
+ls
+cd linux_practice2/
+ls
+mv documents/gizumo20.md trash/
+mv documents/gizumo{21..40}.md trash/
+ls
+cd trash
+ls
+cs ..
+cd ..
+ls
+cd documents
+ls
+cd ..
+ls
+mkdir gitignore
+ls
+vi gitignore
+ls
+rm gitigonre
+rm -r gitignore
+ls
+touch gitignore
+ls
+vi gitignore
+ls
+history 300
+ls
+touch exec_command.log
+ls
+rm git ignore
+rm gitignore
+touch .gitignore
+ls
+ls -a
+vi .gitignore
+ls
+history 300 -w exec_command.log
+history 300
+history -w exec_command.log
